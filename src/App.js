@@ -1,12 +1,12 @@
 import axios from "axios";
 
 import { useEffect, useState } from 'react';
-import { Route, Link, Redirect } from "react-router-dom";
+import { Route, Link } from "react-router-dom";
 
 import BlogPost from "./components/BlogPost.js";
 import Form from "./components/Form.js";
 
-const API_URL = 'https://api.airtable.com/v0/appTlifz4bcguCnQH/Table%201?api_key='
+const API_URL = `https://api.airtable.com/v0/appTlifz4bcguCnQH/Table%201?api_key=${process.env.REACT_APP_API_KEY}`;
 
 
 function App() {

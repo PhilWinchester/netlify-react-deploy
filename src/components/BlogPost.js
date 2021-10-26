@@ -3,7 +3,7 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 
 
-const API_URL = 'https://api.airtable.com/v0/appTlifz4bcguCnQH/Table%201?api_key='
+const API_URL = `https://api.airtable.com/v0/appTlifz4bcguCnQH/Table%201?api_key=${process.env.REACT_APP_API_KEY}`;
 
 
 const BlogPost = ({ postData, toggleFetch, setToggleFetch }) => {
