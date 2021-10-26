@@ -1,9 +1,3 @@
-/*
-Needabutton
-makeanaxioscall
-need to know the id
-*/
-
 import axios from "axios";
 
 import { Link } from "react-router-dom";
